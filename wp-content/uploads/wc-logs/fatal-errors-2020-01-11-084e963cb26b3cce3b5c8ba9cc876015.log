@@ -1,0 +1,13 @@
+2020-01-11T14:26:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in D:\XAMPP\htdocs\portfolio\wp-content\themes\IT Consulting\functions.php on line 58 and at least 2 expected in D:\XAMPP\htdocs\portfolio\wp-includes\plugin.php:583
+Stack trace:
+#0 D:\XAMPP\htdocs\portfolio\wp-content\themes\IT Consulting\functions.php(58): remove_action('woocommerce_bef...')
+#1 D:\XAMPP\htdocs\portfolio\wp-settings.php(497): include('D:\\XAMPP\\htdocs...')
+#2 D:\XAMPP\htdocs\portfolio\wp-config.php(90): require_once('D:\\XAMPP\\htdocs...')
+#3 D:\XAMPP\htdocs\portfolio\wp-load.php(37): require_once('D:\\XAMPP\\htdocs...')
+#4 D:\XAMPP\htdocs\portfolio\wp-blog-header.php(13): require_once('D:\\XAMPP\\htdocs...')
+#5 D:\XAMPP\htdocs\portfolio\index.php(17): require('D:\\XAMPP\\htdocs...')
+#6 {main}
+  thrown w D:\XAMPP\htdocs\portfolio\wp-includes\plugin.php w linii 583
+
+2020-01-11T15:06:15+00:00 CRITICAL syntax error, unexpected 'ziomki' (T_STRING) w D:\XAMPP\htdocs\portfolio\wp-content\plugins\woocommerce\includes\wc-template-functions.php w linii 3633
+
